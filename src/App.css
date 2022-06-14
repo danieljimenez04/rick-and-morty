@@ -1,0 +1,179 @@
+
+
+body{
+  background-color: rgb(21, 20, 20);
+
+}
+
+
+.main__component h1{
+  color: hsl(0, 0%, 100%,0.9);
+  z-index: 1;
+  font-family: 'Poppins', sans-serif; 
+  font-size: 40px;
+  text-align: center;
+  background-color: hsl(271, 76%, 53%,0.5);
+  font-weight: bolder;
+}
+
+.header img{
+  height: 500px;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  box-shadow: 2px 2px 2px 1px #dfff00;
+  
+}
+
+.status__style{
+  width: 15px;
+  height: 15px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.location{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location__component{
+  color: #fff;
+  position: absolute;
+  top:600px;
+  min-width: 500px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+ 
+}
+
+.location__component>div:nth-child(1){
+  grid-column: 1/4;
+}
+
+
+.location__component span {
+  font-weight: bolder;
+}
+
+.form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__component{
+  position: absolute;
+  top:550px;
+  /* text-align: center; */
+}
+
+.form__component input {
+  border: none;
+  background-color: hsl(0, 0%, 50%,0.1);
+  color: #fff;
+  width:500px;
+  height: 30px;
+  font-size: 15px;
+ 
+  
+}
+
+.form__component button {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  height: 40px;
+  width:100px
+}
+
+
+.form__component button:hover{
+  color:#fff;
+  background-color: blueviolet;
+  cursor:pointer;
+  font-size: medium;
+  box-shadow: 2px 2px 2px 1px #dfff00;
+}
+
+.card-container{
+  position: absolute;
+  top:700px;
+  padding: 40px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:50px;
+  justify-content: baseline;
+}
+
+.card__component{
+  color:#fff;
+  background-color:hsl(0, 0%, 50%,0.1);
+  display: grid;
+  grid-template-columns:repeat(3,fr);
+  grid-template-rows: repeat(4,fr);
+  
+}
+
+.card__component>div:nth-child(1){
+  grid-column: 1/2;
+  grid-row: 1/6;
+ 
+}
+
+.card__component>div:nth-child(2){
+  display: flex;
+  justify-content: flex-end;
+  padding:0 10px;
+  
+}
+.card__component>div:nth-child(3){
+  grid-column: 2/3;
+  display: flex;
+  justify-content: flex-end;
+  padding:0 10px;
+  
+}
+
+.card__component>div:nth-child(4){
+  grid-column: 3/4;
+  display: flex;
+  
+  
+}
+
+.card__component>div:nth-child(5){
+  grid-column: 2/3;
+  grid-row: 3/4;
+  display: flex;
+  justify-content: flex-end;
+  padding:0 10px;
+  
+  
+}
+
+
+.card__component>div:nth-child(5){
+  grid-column: 2/3;
+  grid-row: 3/4;
+  display: flex;
+  justify-content: flex-end;
+  padding:0 10px;
+  
+  
+}
+
+
+.card__component>div:nth-child(6){
+  grid-column: 2/3;
+  grid-row: 4/5;
+  display: flex;
+  justify-content: flex-end;
+  padding:0 10px;
+}
