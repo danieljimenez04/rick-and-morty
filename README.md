@@ -10,4 +10,4 @@ Listas y Keys, input no controlado por el id, renderizado condicional, método m
 [API rick morty por id](https://rickandmortyapi.com/api/location)
 
 ## Referencias
-Esta tarea fue creada por el profesor Benjamin Flores y Academolo y hecha por Daniel Jimenez, en colaboración con el docente
+Esta tarea fue creada por el profesor Benjamin Flores y Academlo y hecha por Daniel Jimenez, en colaboración con el docente
